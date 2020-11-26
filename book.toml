@@ -1,0 +1,6 @@
+[book]
+authors = ["Antonin Kral"]
+language = "en"
+multilingual = false
+src = "."
+title = "MayaData Culture"
