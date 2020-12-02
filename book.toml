@@ -11,4 +11,4 @@ renderer = ["html"]
 
 [output.html]
 git-repository-url = "https://github.com/bobek/culture"
-additional-css = ["open-in.css"]
+additional-css = ["css/open-in.css"]
