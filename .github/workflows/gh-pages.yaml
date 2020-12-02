@@ -21,6 +21,9 @@ jobs:
           curl -LSfs https://github.com/badboy/mdbook-open-on-gh/releases/download/1.3.1/mdbook-open-on-gh-1.3.1-x86_64-unknown-linux-gnu.tar.gz | \
             tar zxv
 
+      - run: pwd
+      - run: which mdbook
+      - run: ls -al
       - run: mdbook build
 
       - name: Deploy
